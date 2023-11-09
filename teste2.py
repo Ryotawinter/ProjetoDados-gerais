@@ -24,8 +24,8 @@ button_clicked = False
 
 
 st.set_page_config(
-    page_title="Kabum E-sports",
-    page_icon="🥷",
+    page_title="INTZ E-sports",
+    page_icon="👨‍🚀",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -61,7 +61,7 @@ def carregar_image_pick(image_url,name,quantidade,winrate,presence):
 
 with st.sidebar:
     with st.container():
-        image = Image.open('logo-kabum.png')
+        image = Image.open('INTZ_Logo_Principal_2022.png')
 
         st.image(image,width=250)
         # Coletando parâmetros do usuário
