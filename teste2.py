@@ -802,7 +802,7 @@ try:
             col1, col2, col3,col4, col5, col6 = st.columns(6)
             with col1:
                 st.subheader('Early at 10')
-                cs_med = round(data_players['opp_csat10'].mean(), 1)
+                cs_med = round(data_players['csdiffat10'].mean(), 1)
                 if cs_med > 0:
                     st.markdown(f'''Cs diff aos 10: :green[+{cs_med}]''')
                 else:
@@ -820,7 +820,7 @@ try:
 
             with col2:
                 st.subheader('Early at 15')
-                cs_med = round(data_players['opp_csat15'].mean(), 1)
+                cs_med = round(data_players['csdiffat15'].mean(), 1)
                 if cs_med > 0:
                     st.markdown(f'''Cs diff aos 15: :green[+{cs_med}]''')
                 else:
